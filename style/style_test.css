@@ -1,0 +1,12 @@
+.order {
+  display: flex;
+  flex-direction: row;
+}
+
+ul:first-child li:last-child {
+  background-color: yellow;
+}
+
+li:nth-child(odd) {
+  background-color: teal;
+}
